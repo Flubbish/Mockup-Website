@@ -1,0 +1,97 @@
+
+ul li a:hover {
+    color:#55b03d !important; 
+}
+#mybg{
+    width: 100%;
+    height: 100vh;
+}
+.photos img{
+    height: 350px;
+    width:auto;
+    transition: transform 0.3s ease-in-out;
+}
+.photos img:hover  {
+    transform: scale(0.9); 
+    box-shadow: 0 0 200px rgba(234, 1, 255, 0.626);
+}
+#first{
+    position: absolute;
+    top: 1005px;
+    left: 280px;
+}
+#mid{
+    position: absolute;
+    top: 1005px;
+    left: 630px;
+}
+#last{
+    position: absolute;
+    top: 1005px;
+    left: 980px;
+}
+.footer{
+    background: #1c1c1c; 
+    height: 180px;
+    margin: 0; 
+    width: 100%;
+    padding: 0;
+    position: relative;
+}
+#block img{
+    position: absolute;
+    height: 130px;
+    width:auto;
+    left:155px;
+    margin-top: 30px;
+}
+#links {
+    font-family: 'Minecraft';
+   margin-left: 350px;
+    display: block; 
+    transform: translateY(30px);
+}
+#links h4 {
+    font-size: 1.2em;
+    font-weight: lighter;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+    color: whitesmoke;
+}
+#qlink {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#qlink li {
+    margin-bottom: 0.3em;
+    display: block; 
+}
+#qlink li a {
+    text-decoration: none;
+    color: whitesmoke; 
+    display: block; 
+    padding-right: 10px; 
+}
+#projectdetails img {
+    height: 40px;
+    position: absolute;
+    right: 220px;
+    bottom: 120px;
+}
+#projectdetails p {
+    color: whitesmoke;
+    font-size:larger;
+    margin-left: 900px;
+    margin-right: 50px;
+    position: absolute;
+    bottom: 35px;
+    text-align: center;
+}
+#rights {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
+    text-align: center;
+}

@@ -1,0 +1,204 @@
+<html>
+<head>
+  <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+  <link rel="icon" href="assets\img\Creeper.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets\css\style.css" />
+  <title>Minecraft</title>
+
+  <style>
+    body {
+        font-family: 'Minecraft', sans-serif;
+        margin: 0; 
+        padding: 0; 
+    }
+    .trailerbg {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            background-color: #000;
+        }
+
+
+   .background-clip {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%; 
+            height: auto; 
+            object-fit: cover; 
+        }
+    .container{
+            border-radius: 50px;
+            width: 80%;
+            height: 575px;
+            background-color:rgba(0, 0, 0, 0.753);
+            position: absolute;
+            top:163px ;
+            right: 145px;
+        }
+           
+    .container img{
+            position: absolute;
+            margin-top: 65px;
+            margin-left:75px;
+            height: 450px;
+            width:auto;
+        }
+    .container h1{
+            color: whitesmoke;
+            margin-top: 100px;
+            margin-left:425px;
+            font-weight: lighter;
+        }
+    .container p{
+            font-family: sans-serif;
+            color: whitesmoke;
+            margin-left: 425px;
+            margin-right: 100px;
+            font-size:larger;
+        }
+.container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Minecraft';
+    margin-top: 20px;
+    margin-left: 425px;
+    background-color:rgba(0, 0, 0, 0.43);
+    border: 0.727273px solid rgba(0, 0, 0, 0);
+    border-radius: 0px;
+    box-shadow: rgba(0, 0, 0, 0.4) 3px 3px 0px 0px;
+    box-sizing: border-box;
+    font-weight: lighter;
+    color: whitesmoke;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+.container button:hover {
+    background-color: rgb(61, 57, 56); 
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 4px 0px 0px inset,
+                rgba(255, 255, 255, 0.24) -4px 0px 0px 0px inset,
+                rgba(0, 0, 0, 0.24) 0px -4px 0px 0px inset,
+                rgba(0, 0, 0, 0.24) 4px 0px 0px 0px inset;
+    color: whitesmoke; 
+}
+
+.container button:active {
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+    
+    
+
+    
+</style>
+
+</head>
+<body>
+    <!-- INLINE CODE -->
+     <!-- NAV BAR-->
+<div id="navbar">
+
+        <div style="display: flex; align-items: center; width: 200px; float: left;">
+          <img  style="height: 40px; margin-left: 85px; margin-top: 20; float: left;" src="assets\img\Logo.png"/>
+        </div>
+
+        <div style="background: #1c1c1c; height: 80px;margin: 0; padding: 0; ">
+            <div style=" float:right; margin-right: 50px;">
+                <ul style="padding: 0; margin: 0; list-style-type: none;">
+                    <li style="display: inline; padding: 0; margin: 0; margin-right: 30px;">
+                        <a href="#" style="color:whitesmoke; font-size:30px; text-decoration: none; display: inline-block;">HOME</a>
+                    </li>
+                    <li style="display: inline; padding: 0; margin: 0; margin-right: 30px;">
+                        <a href="#" style="color:whitesmoke; font-size:30px; text-decoration: none; display: inline-block;">ABOUT</a>
+                    </li>
+                    <li style="display: inline; padding: 0; margin: 0; margin-right: 30px;">
+                        <a href="#" style="color:whitesmoke; font-size:30px; text-decoration: none; display: inline-block;">CONTACT</a>
+                    </li>
+                    <li style="display: inline; padding: 0; margin: 0; margin-right: 30px;">
+                        <a href="#" style="color:whitesmoke;  font-size:30px; text-decoration: none; margin-top: 20px; display: inline-block;">INFO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- INTERNAL CODE -->
+     <!-- TRAILER-->
+     <div id="trailer">
+          <div class="trailerbg">
+                <video autoplay loop muted plays-inline class="background-clip">
+                  <source src="assets\video\Trailer.mp4" type="video/mp4">
+                </video>
+         </div>
+         <div class="container">
+            <img src="assets\img\poster.png"/>
+            <h1>A Minecraft Movie (2025)</h1>
+            <p>Prepare for an epic adventure as Minecraft, the best-selling video game of all time, comes to life in its first-ever live-action film. Directed by Jared Hess ("Nacho Libre") and starring Jason Momoa and Jack Black, this thrilling story follows four misfits who are pulled into the Overworld, a unique, cubic world where creativity and survival go hand in hand.
+                <br>     <br>     Faced with Piglins, Zombies, and the challenges of mastering this new realm, Garrett (Momoa) and his team must join forces with expert crafter Steve (Black) to protect the Overworld and find their way back home. Packed with excitement, imagination, and heart, “A Minecraft Movie” promises to inspire audiences of all ages.
+                </p>
+             
+            <button onclick="window.location.href='https://youtu.be/8B1EtVPBSMw?si=JcvmZZiqZ8j9zagW';">
+                  Watch The Trailer
+                     </button>
+          </div>
+    </div>
+     
+    <!-- EXTERNAL CODE -->
+     <!-- GALLERY-->
+      <div id="gallery">
+            <div class="trailerbg">
+                <img src="assets\img\bg.png" id="mybg"/>
+            </div>
+          <div class="container1"> 
+            <!-- 1 INLINE CODE -->
+                <div id="portal" style="top: 930px; right: 145px; width: 80%; height: 505px; position: absolute; background-image: url('assets/gif/portal.gif'); opacity: 0.6; box-shadow: 0 0 200px rgba(234, 1, 255, 0.626);">
+                </div>
+                <div class="photos">
+                    <a href="https://youtu.be/wJO_vIDZn-I?si=HbIvOQnWJy4vb6Oc" target="_blank">
+                        <img src="assets\img\img1.png" id="first"/>
+                      </a>                      
+                   <a href="https://www.minecraft.net/en-us" target="_blank">
+                        <img src="assets\img\img3.png" id="mid"/>
+                      </a>     
+                      <a href="https://youtu.be/41O_MydqxTU?si=dJYUwc_rRt_svXuO&t=24" target="_blank">
+                        <img src="assets\img\img2.png" id="last"/>
+                      </a>          
+                </div> 
+          </div>
+    </div>
+
+
+<!-- FOOTER-->
+ <footer>
+    <div class="footer">
+    <div id="block">
+    <img src="assets\img\Creeper.png"/>
+   </div>
+    <div id="links">
+        <h4>Quick Links</h4>
+        <div id="quick">
+          <ul id="qlink">
+             <li><a href="#">Home</a></li>
+             <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Info</a></li>
+           </ul>
+         </div>
+      </div>
+      <div id="projectdetails">
+        <img src="assets\img\Logo.png"/>
+        <p>In a boundless world of blocks, craft your own adventure, survive the unknown, and build the extraordinary, one cube at a time.</p>
+       </div>
+       <p id="rights">&copy; 2025 Joshua Daniel T. Espartero. All Rights Reserved.</p>
+
+    </div>
+ </footer>
+
+
+</body>
+</html>
